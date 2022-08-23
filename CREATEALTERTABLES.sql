@@ -33,3 +33,8 @@ ALTER TABLE Employees
 ADD Country NVARCHAR(45);
 
 DROP TABLE Employees;
+
+
+ALTER TABLE Employees
+ADD CONSTRAINT Set_Df
+DEFAULT 'Not Existing Notes' for Notes
