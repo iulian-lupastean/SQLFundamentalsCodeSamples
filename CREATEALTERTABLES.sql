@@ -26,15 +26,18 @@ CREATE TABLE ProjectEmployees (
 ALTER TABLE Employees 
 ALTER COLUMN Country NVARCHAR(30);
 
+
 ALTER TABLE Employees 
 DROP COLUMN Country;
 
 ALTER TABLE Employees
 ADD Country NVARCHAR(45);
 
-DROP TABLE Employees;
 
 
 ALTER TABLE Employees
 ADD CONSTRAINT Set_Df
 DEFAULT 'Not Existing Notes' for Notes
+
+DROP TABLE Employees;
+
