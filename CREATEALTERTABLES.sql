@@ -26,26 +26,28 @@ CREATE TABLE ProjectEmployees (
 ALTER TABLE Employees 
 ALTER COLUMN Country NVARCHAR(30);
 
+
+
 ALTER TABLE Employees
 ADD CONSTRAINT Set_Df
 DEFAULT 'Not Existing Notes' for Notes
+
+INSERT INTO dbo.Employees (InternalIdentifier, FirstName, LastName, City, Country, BirthYear)
+VALUES
+('000001', 'Dan', 'Patrascu-Baba', 'Timisoara', 'Romania', 1984)
+
+
 
 ALTER TABLE Employees
 DROP COLUMN Notes
 
 ALTER TABLE Employees
-DROP CONSTRAINT Add_Default
+DROP CONSTRAINT Set_Df
 
 ALTER TABLE Employees
-ADD Country NVARCHAR(45);
+ADD Notes NVARCHAR(500);
 
 
-
-
-
-INSERT INTO dbo.Employees (InternalIdentifier, FirstName, LastName, City, Country, BirthYear)
-VALUES
-('000001', 'Dan', 'Patrascu-Baba', 'Timisoara', 'Romania', 1984)
 
 DROP TABLE Employees;
 
