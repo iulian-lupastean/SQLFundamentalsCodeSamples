@@ -15,6 +15,8 @@ VALUES
 ('000014', 'Ion', 'Gandrabura', 'Chisinau', 'Moldova', 1988, NULL),
 ('000015', 'Adrian', 'Marinescu', 'Timisoara', 'Romania', 1988, NULL)
 
+
+
 INSERT INTO dbo.Projects (ProjectName, ProjectDescription, CustomerName, Revenue)
 VALUES
 ('ProjectPlan', NULL, 'Amdaris', 0),
@@ -32,3 +34,7 @@ VALUES
 (3, 7),
 (3, 6),
 (3, 4)
+
+INSERT INTO Employees (InternalIdentifier, LastName, First, City, Country, BirthYear, NOTES)
+VALUES
+('000016', 'Lupastean', 'Iulian', 'Cluj-Napoca', 'Romania', 2010, NULL)
