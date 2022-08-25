@@ -39,5 +39,9 @@ ALTER TABLE Employees
 ADD CONSTRAINT Set_Df
 DEFAULT 'Not Existing Notes' for Notes
 
+INSERT INTO dbo.Employees (InternalIdentifier, FirstName, LastName, City, Country, BirthYear)
+VALUES
+('000001', 'Dan', 'Patrascu-Baba', 'Timisoara', 'Romania', 1984)
+
 DROP TABLE Employees;
 
