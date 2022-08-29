@@ -1,0 +1,15 @@
+CREATE TABLE Persons(
+	ID INT PRIMARY KEY IDENTITY(1,1),
+	FirstName VARCHAR(30) NOT NULL,
+	LastName VARCHAR(30) NOT NULL
+)
+CREATE TABLE PhoneNumbers(
+	ID INT PRIMARY KEY IDENTITY(1,1),
+	PersonId INT NOT NULL FOREIGN KEY REFERENCES Persons(ID),
+	PhoneNumber INT NOT NULL
+)
+INSERT INTO Persons(FirstName,LastName)
+VALUES ('Ion','Popescu'),('Maria','Ionescu'),('Iulian','Lupastean')
+
+INSERT INTO PhoneNumbers(PersonId,PhoneNumber)
+VALUES (1,12345),(2,118112),(1,111111),(2,19018281)
