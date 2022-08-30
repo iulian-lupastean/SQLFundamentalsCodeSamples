@@ -13,3 +13,6 @@ VALUES ('Ion','Popescu'),('Maria','Ionescu'),('Iulian','Lupastean')
 
 INSERT INTO PhoneNumbers(PersonId,PhoneNumber)
 VALUES (1,12345),(2,118112),(1,111111),(2,19018281)
+
+INSERT INTO PhoneNumbers(PhoneNumber)
+Values(02192121),(1212121)
