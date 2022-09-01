@@ -1,5 +1,8 @@
 -- INNER JOIN FOR 1 TO MANY
 
+SELECT * FROM Persons
+SELECT * FROM PhoneNumbers
+
 SELECT P.FirstName,P.LastName,PN.PhoneNumber
 FROM Persons AS P
 INNER JOIN PhoneNumbers as PN
