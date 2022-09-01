@@ -8,12 +8,11 @@ from Projects
 
 --Numarul de angajati care au un anumit an al ansteri, Cuprins intr-un interval
 
-SELECT COUNT(ID) as 'Numar de Angajati' , BirthYear as 'Anul Nasteri'
-FROM Employees
-Where Country Like 'Romania'
-Group By BirthYear
-Having BirthYear >= 1989 AND BirthYear <= 1999
-ORDER BY Count(ID) DESC
+SELECT COUNT(ID) as 'Nr de angajati', 2022-BirthYear as 'Varsta'
+FROM Employees as E
+WHERE Country Like 'Romania'
+Group By 2022-BirthYear
+ORDER BY COUNT(ID) DESC,Varsta DESC
 
 SELECT 2022 - AVG(BirthYear) as VarstaMedie
 From Employees
