@@ -7,7 +7,7 @@ SELECT P.FirstName,P.LastName,PN.PhoneNumber
 FROM Persons AS P
 INNER JOIN PhoneNumbers as PN
 			ON P.ID=PN.PersonID
-GROUP BY LastName,FirstName,PhoneNumber
+ORDER BY LastName
 
 
 --Left and right join for many to many
