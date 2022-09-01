@@ -6,7 +6,7 @@ Order By Country DESC
 SELECT SUM(Revenue) 
 from Projects
 
---Numarul de angajati care au un anumit an al ansteri, Cuprins intr-un interval
+--Numarul de angajati din romania, care au anumita varsta
 
 SELECT COUNT(ID) as 'Nr de angajati', 2022-BirthYear as 'Varsta'
 FROM Employees as E
