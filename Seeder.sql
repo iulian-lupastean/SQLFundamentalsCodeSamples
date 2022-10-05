@@ -35,6 +35,6 @@ VALUES
 (3, 6),
 (3, 4)
 
-INSERT INTO Employees (InternalIdentifier, LastName, First, City, Country, BirthYear, NOTES)
+INSERT INTO Employees (InternalIdentifier, LastName, FirstName, City, Country, BirthYear, NOTES)
 VALUES
 ('000016', 'Lupastean', 'Iulian', 'Cluj-Napoca', 'Romania', 2010, NULL)
