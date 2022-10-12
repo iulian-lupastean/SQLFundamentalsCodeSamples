@@ -22,7 +22,7 @@ SELECT COUNT(ID) as 'Nr. of Employees',Country
 From Employees
 WHERE 2022 - BirthYear > 25
 Group By Country
-Having COUNT(ID) = 3
+Having COUNT(ID) > 3
 
 
 
