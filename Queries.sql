@@ -15,7 +15,8 @@ from Projects
 SELECT 2022 - AVG(BirthYear) as VarstaMedie
 From Employees
 
-
+--Average age of our employees
+Select AVG(2022-BirthYear) from Employees
 
 --Number of employees from each country that has the age bigger than 25 but (only if there are more than 3 employyes)
 SELECT COUNT(ID) as 'Nr. of Employees',Country
