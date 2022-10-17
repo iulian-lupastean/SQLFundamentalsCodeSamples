@@ -57,3 +57,8 @@ ADD Notes NVARCHAR(500);
 --DELETE TABLE
 DROP TABLE Employees;
 
+
+--RENAME TABLE
+
+GO
+EXEC sp_rename 'Users' ,'User';
