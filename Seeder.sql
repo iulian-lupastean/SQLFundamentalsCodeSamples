@@ -28,14 +28,14 @@ VALUES
 
 INSERT INTO ProjectEmployees (ProjectId, EmployeeId)
 VALUES
-(1, 8),
-(1, 5),
 (1, 2),
+(1, 5),
+(1, 8),
 (2, 13),
 (3, 1),
-(3, 7),
+(3, 4),
 (3, 6),
-(3, 4)
+(3, 7)
 
 INSERT INTO Employees (InternalIdentifier, LastName, FirstName, City, Country, BirthYear, NOTES)
 VALUES
