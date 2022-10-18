@@ -6,7 +6,7 @@ VALUES
 ('000004', 'Vesela', 'Topalova', 'Sofia', 'Bulgaria', 1980, NULL),
 ('000005', 'Constantin', 'Bivol', 'Chisinau', 'Moldova', 2000, NULL),
 ('000006', 'Vlad', 'Mihet', 'Timisoara', 'Romania', 2002, NULL),
-('000007', 'Lupastean', 'Iulian', 'Cluj-Napoca', 'Romania', 2010, NULL),
+('000007', 'Lupastean', 'Iulian', 'Cluj-Napoca', 'Romania', 1999, NULL),
 ('000008', 'Loredana', 'Filip', 'Timisoara', 'Romania', 1992, NULL),
 ('000009', 'Sabina', 'Paulesco', 'Chisinau', 'Moldova', 1994, NULL),
 ('000010', 'Anna', 'Grier', 'Timisoara', 'Romania', 1990, NULL),
